@@ -30,8 +30,7 @@
                 android:value="@integer/google_play_services_version"/>
         </config-file>
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
-			<activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" 
-			    android:name="com.google.android.gms.ads.AdActivity" />
+			<activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:name="com.google.android.gms.ads.AdActivity" />
           </config-file>
         <config-file target="AndroidManifest.xml" parent="/*">
 			<uses-permission android:name="android.permission.INTERNET"/>
